@@ -1,6 +1,6 @@
 name: "Hexesoft-BTicino"
 description: "BTicino SCS in Home Assistant"
-version: "1.0.1"
+version: "1.0.2"
 slug: "hexesoft_bticino"
 arch:
   - aarch64
@@ -15,7 +15,6 @@ options:
     host: ""
     port: 20000
     password: ""
-    logunknowndevices: true
   
   scan_settings:
     skiplight: false
@@ -59,8 +58,7 @@ schema:
     host: str
     port: int
     password: password
-    logunknowndevices: bool
-  
+    
   scan_settings:
     skiplight: bool
     skipshutter: bool

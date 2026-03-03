@@ -24,6 +24,4 @@ using the **MQTT** protocol for communication.
 * **Bidirectional Control: Translates MQTT commands into OpenWebNet packets to operate lights, shutters, and thermostats.
 * **Energy Monitoring: Cyclically polls F520 modules to report instantaneous power (W) and total energy (kWh).
 * **Thermostats: Direct thermostat management without a 99-zone central unit. Ability to set heating and cooling for each individual thermostat.
-
-Pumps and Valves: Management of the opening of valves controlled by thermostats and the related connected pump.
-
+* **Pumps and Valves: Management of the opening of valves controlled by thermostats and the related connected pump.
